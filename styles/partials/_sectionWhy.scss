@@ -1,0 +1,54 @@
+.whyFlex {
+   display: flex;
+   justify-content: space-between;
+   margin: 40px 0;
+}
+
+.whyText {
+   max-width: 60%;
+   
+   h1 {
+      margin: 15px 0;
+   }
+
+   h4 {
+      margin: 15px 0;
+   }
+
+   p {
+      margin: 15px 0;
+   }
+}
+
+.whyFlex img {
+   max-width: 40%;
+}
+
+.riskStrategy {
+   display: flex;
+   justify-content: space-between;
+}
+
+.riskStrategyDiv {
+   border: 1px solid rgb(228, 228, 228);
+   width: 32%;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   transition: all 0.2s;
+
+   &:hover {
+      border-left: 1px solid rgb(47, 135, 253);
+      color: rgb(47, 135, 253);
+      
+   }
+}
+
+.riskStrategyImgTitle {
+   display: flex;
+   align-items: center;
+}
+
+.riskImgDiv {
+   padding-right: 15px;
+}

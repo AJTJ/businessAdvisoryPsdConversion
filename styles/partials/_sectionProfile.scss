@@ -1,0 +1,45 @@
+.profile {
+   background: rgb(47, 135, 253);
+   color: white;
+   padding: 50px 0;
+   
+   p {
+      color: white;
+   }
+}
+
+.profileFlex {
+   display: flex;
+   justify-content: space-between;
+}
+
+.profileText {
+   text-align: center;
+   padding: 0 20px;
+
+   .titleUnderline {
+      border-color: white;
+      margin-bottom: 20px;
+   }
+
+   p {
+      padding-bottom: 20px;
+   }
+}
+
+.profileInfo {
+   padding-bottom: 30px;
+}
+
+.profileButton {
+   display: inline-block;
+   border-radius: 20px;
+   background: rgb(52, 122, 216);
+   width: 30px;
+   height: 15px;
+   transition: all 0.2s;
+
+   &:hover {
+      background: white;
+   }
+}

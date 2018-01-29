@@ -1,2 +1,26 @@
+@import "partials/variables";
 @import "partials/normalize";
-@import"partials/colors";
+@import "partials/colors";
+@import "partials/typography";
+@import "partials/global";
+
+// SECTIONS
+@import "partials/topNavContact";
+@import "partials/topNavLogo";
+@import "partials/topNavIndex";
+
+@import "partials/hero";
+@import "partials/sectionCollaborative";
+@import "partials/sectionServices";
+@import "partials/sectionWhy";
+@import "partials/_sectionBizNumbers";
+@import "partials/_sectionProject";
+@import "partials/_sectionProfile";
+@import "partials/_sectionNews";
+@import "partials/_sectionLogo";
+
+@import "partials/_footer";
+
+// * {
+//    border: red 1px solid;
+// }

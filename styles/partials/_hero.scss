@@ -1,0 +1,62 @@
+.heroSection {
+   background-image: linear-gradient(rgba(1, 22, 50, 0.45), rgba(1, 22, 50, 0.45)), url("/assets/heroImage.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 800px;
+   color: white;
+   position: relative;
+
+   svg {
+      color: white;
+   }
+
+   h1 {
+      max-width: 70%;
+      font-size: 71px;
+      padding-top: 200px;
+   }
+
+   h5 {
+      max-width: 80%;
+      padding: 100px 0;
+   }
+}
+
+.meetExpertsLink,
+.arrowLink {
+   display: inline-block;
+   background: rgb(47, 135, 253);
+   width: 200px;
+   text-align: center;
+   padding: 18px 0;
+   margin: 30px;
+
+   span {
+      margin-left: 15px;
+   }
+}
+
+.angleAnchor {
+   background: rgb(47, 135, 253);
+   height: 30px;
+   width: 30px;
+   display: inline-block;
+   border-radius: 100px;
+   position: absolute;
+}
+
+.angleAnchorRight {
+   top: 50%;
+   right: 5px;
+}
+
+.angleAnchorLeft {
+   top: 50%;
+   left: 5px;
+}
+
+.heroAngle {
+   position: absolute;
+   left: 11px;
+   top: 7px;
+}

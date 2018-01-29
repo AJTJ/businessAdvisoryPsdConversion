@@ -1,0 +1,77 @@
+p,
+h5,
+a {
+   font-family: $fontMain;
+   margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+   font-family: $fontHeader;
+   margin: 0;
+   font-weight: 400;
+}
+
+h3,
+h4 {
+   font-family: $fontAlt
+}
+
+// h1 for ~45px main section title (play)
+// h2 any ~20px smaller title (play)
+// h3 for 20px poppins (or other poppins)
+// h4 for 18px poppins
+// h5 for main font 18px sans
+
+h1 {
+   font-size: 45px;
+}
+
+h2 {
+   font-size: 20px;
+}
+
+h3 {
+   font-size: 20px;
+}
+
+h4 {
+   font-size: 18px
+}
+
+h5 {
+   font-size: 18px;
+}
+
+p {
+   font-size: 16px;
+   margin: 0;
+   color: rgba(0, 0, 0, 0.7);
+   line-height: 34px;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+li {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+span {
+   color: white;
+}
+
+svg {
+   color: white;
+}
+
+// font-family: 'Playfair Display', serif;
+// font-family: 'Source Sans Pro', sans-serif;
+// font-family: 'Poppins', sans-serif;

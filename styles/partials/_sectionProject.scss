@@ -1,0 +1,36 @@
+.project {
+   margin: 100px 0;
+
+   .largeLetter {
+      color: rgb(246, 243, 243);
+   }
+}
+
+.projectText {
+   display: flex;
+   justify-content: space-between;
+   padding: 40px 0;
+
+   h3 {
+      width: 75%;
+   }
+
+   .arrowLink {
+      margin: 0;
+      background: white;
+      color: rgb(47, 135, 253);
+
+      svg, span {
+         color: rgb(47, 135, 253);
+      }
+   }
+}
+
+.projectImagesFlex {
+   display: flex;
+   justify-content: space-between;
+
+   img {
+      width: 32%;
+   }
+}

@@ -1,0 +1,195 @@
+footer {
+   background: black;
+   position: relative;
+}
+
+.footerContact {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: rgb(49, 48, 48);
+   color: white;
+   height: 80px;
+   padding: 15px;
+   position: absolute;
+   top: -40px;
+   width: 80%;
+   margin: 0 10%;
+
+   h3 {
+      font-size: 15px;
+   }
+
+   div {
+      display: flex;
+   }
+
+   a {
+      padding: 0 15px;
+   }
+
+   svg {
+      color: rgb(47, 135, 253);
+   }
+}
+
+.footerBar {
+   background: rgb(66, 65, 65);
+   margin: 0 30px;
+   height: 80px;
+}
+
+.mainFooter {
+   padding-top: 100px;
+
+   h2 {
+      color: white;
+   }
+
+   h3 {
+      color: white;
+   }
+
+   h4 {
+      color: rgb(47, 135, 253);
+   }
+
+   p {
+      color: rgb(177, 175, 175);
+   }
+}
+
+.footerFlex {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footerLogoSection {
+   width: 30%;
+
+   .companyLogo {
+      padding-bottom: 30px;
+   }
+
+   p {
+      padding-bottom: 20px 0;
+   }
+
+   .blueFooterLogo {
+      color: rgb(47, 135, 253);
+      padding: 40px 0;
+   }
+}
+
+
+
+
+.emailInput {
+   background: rgb(49, 48, 48);
+   border: none;
+   height: 45px;
+   width: 250px;
+   padding: 0 20px;
+   color: rgb(96, 93, 93);
+}
+
+.emailSubmit {
+   height: 45px;
+   width: 80px;
+   position: relative;
+   left: -20px;
+   background: rgb(47, 135, 253);
+   border-radius: 30px;
+   border: none;
+   font-family: FontAwesome;
+}
+
+.footerQuickFocus {
+   width: 20%;
+
+   h3 {
+      padding-bottom: 40px;
+   }
+
+   li {
+      padding: 10px 0;
+   }
+
+   a {
+      color: rgb(177, 175, 175);
+      padding: 10px 0;
+   }
+
+   a:hover {
+      color: rgb(47, 135, 253);
+   }
+}
+
+.footerNews {
+   width: 20%;
+
+   h3 {
+      padding-bottom: 40px;
+   }
+
+   h4 {
+      font-size: 15px;
+      padding: 15px 0;
+   }
+
+   p {
+      font-size: 15px;
+   }
+}
+
+
+.quote {
+   display: flex;
+   align-items: center;
+   font-size: 15px;
+   font-family: $fontAlt;
+   text-transform: uppercase;
+   padding: 30px 0;
+
+   svg {
+      margin-right: 15px;
+      line-height: 2;
+   }
+
+   &:hover {  
+      span, svg {
+      color: firebrick;
+      }
+   }
+}
+
+
+
+
+
+
+
+// FOOTER BOTTOM
+
+
+
+
+.footerBottom {
+   border-top: rgb(146, 141, 141);
+   padding: 50px 20px;
+   margin: 30px 0;
+   display: flex;
+   justify-content: space-between;
+
+   p, svg {
+      color: rgb(148, 146, 146);
+   }
+
+   .bottomFooterLink:hover svg {
+      color: firebrick;
+   }
+}
+
+.footerSocialMedia {
+   max-width: 200px;
+}

@@ -1,0 +1,58 @@
+.indexNav {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background: rgb(47, 135, 253);
+   color: white;
+   height: 75px;
+   padding: 0 20px;
+
+   a {
+      font-size: 18px;
+      color: white;
+   }
+}
+
+.index {
+   flex-grow: 3;
+   display: flex;
+   justify-content: space-between;
+}
+
+.shoppingSearch {
+   display: flex;
+   justify-content: space-around;
+   flex-grow: 1;
+}
+
+.shopping {
+   position: relative;
+}
+
+.shoppingCircle {
+   position: absolute;
+   right: -15px;
+   bottom: -10px;
+   background: rgb(45, 113, 205);
+   height: 22px;
+   width: 22px;
+   border-radius: 100px;
+
+   span {
+      position: relative;
+      left: 7px;
+      bottom: 1px;
+   }
+}
+
+.indexSocialMedia {
+   display: flex;
+   flex-grow: 1;
+
+   a {
+      padding: 0 5px;
+      flex-grow: 1;
+      display: flex;
+      justify-content: space-around;
+   }
+}

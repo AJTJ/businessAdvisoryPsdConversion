@@ -1,0 +1,56 @@
+.collaborative {
+   margin-top: 50px;
+   position: relative;
+
+   h2 {
+      margin: 30px 0;
+   }
+
+   .arrowLink {
+      width: 150px;
+      margin: 30px 0;
+   }
+}
+
+.collaborativeFlex {
+   display: flex;
+   justify-content: space-between;
+   min-height: 330px;
+
+   p {
+      margin: 30px 0;
+   }
+}
+
+.leftCircle {
+   position: absolute;
+   left: 0;
+   top: 0;
+   z-index: -1;
+}
+
+.collaborativePrincipalSection {
+   max-width: 70%;
+   padding-right: 30px;
+}
+
+.collaborativeSmallSection {
+   max-width: 30%;
+   padding: 25px;
+   background-color: #f6f6f6;
+   border-right: rgb(47, 135, 253) 1px solid;
+
+   .arrowLink {
+      width: 200px;
+      margin: 0;
+      background: none;
+
+      svg {
+         color: rgb(47, 135, 253);
+      }
+      
+      span {
+         color: rgb(47, 135, 253);
+      }
+   }
+}
