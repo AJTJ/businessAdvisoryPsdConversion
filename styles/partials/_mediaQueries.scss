@@ -1,0 +1,75 @@
+/* Portrait tablet and small desktops */
+@media (max-width: 950px) {
+
+   // TOP NAV CONTACT
+
+   .contactNavFlex {
+      flex-direction: column;
+   }
+
+   .phoneEmail {
+      margin: 5px 0;
+   }
+
+   .languageAbout {
+      margin: 5px 0;
+   }
+
+   // TOP NAV LOGO
+
+   .topNavLogo {
+      h2 {
+         font-size: 25px;
+      }
+
+      h5 {
+         font-size: 16px;
+      }
+
+      p, a {
+         font-size: 12px;
+      }
+
+      .consultationLink {
+         width: 150px;
+      }
+   }
+
+   // TOP NAV INDEX
+
+   .indexNav {
+
+      a {
+         font-size: 16px;
+      }
+   }
+
+   // HERO SECTION 
+
+   .heroSection {
+
+      h1 {
+         font-size: 50px;
+      }
+   }
+
+   // COLLABORATIVE SECTION
+   
+   .collaborative {
+      h2 {
+         text-align: center;
+      }
+   }
+}
+
+
+
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}

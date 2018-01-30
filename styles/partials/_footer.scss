@@ -26,6 +26,10 @@ footer {
 
    a {
       padding: 0 15px;
+
+      &:hover svg {
+         color: white;
+      }
    }
 
    svg {
@@ -35,7 +39,7 @@ footer {
 
 .footerBar {
    background: rgb(66, 65, 65);
-   margin: 0 30px;
+   margin: 0 10%;
    height: 80px;
 }
 
@@ -71,6 +75,10 @@ footer {
       padding-bottom: 30px;
    }
 
+   h2 {
+      font-size: 32px;
+   }
+
    p {
       padding-bottom: 20px 0;
    }
@@ -78,6 +86,11 @@ footer {
    .blueFooterLogo {
       color: rgb(47, 135, 253);
       padding: 40px 0;
+   }
+
+   img {
+      max-height: 45px;
+      margin-right: 20px;
    }
 }
 
@@ -101,13 +114,18 @@ footer {
    background: rgb(47, 135, 253);
    border-radius: 30px;
    border: none;
-   font-family: FontAwesome;
+   transition: all 0.2s;
+
+   &:hover {
+      background: firebrick;
+   }
 }
 
 .footerQuickFocus {
    width: 20%;
 
    h3 {
+      font-size: 18px;
       padding-bottom: 40px;
    }
 
@@ -130,6 +148,7 @@ footer {
 
    h3 {
       padding-bottom: 40px;
+      font-size: 18px;
    }
 
    h4 {
@@ -175,11 +194,9 @@ footer {
 
 
 .footerBottom {
-   border-top: rgb(146, 141, 141);
+   border-top: rgb(54, 52, 52) solid 1px;
    padding: 50px 20px;
-   margin: 30px 0;
-   display: flex;
-   justify-content: space-between;
+   margin: 30px 0 0;
 
    p, svg {
       color: rgb(148, 146, 146);
@@ -189,6 +206,11 @@ footer {
       color: firebrick;
    }
 }
+.footerBottomFlex {
+   display: flex;
+   justify-content: space-between;
+}
+
 
 .footerSocialMedia {
    max-width: 200px;

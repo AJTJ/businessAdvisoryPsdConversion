@@ -19,9 +19,16 @@
       margin: 0;
       background: white;
       color: rgb(47, 135, 253);
+      font-family: $fontAlt;
+      font-size: 16px;
+
+      &:hover span, &:hover svg {
+         color: black;
+      }
 
       svg, span {
          color: rgb(47, 135, 253);
+         transition: all 0.2s;
       }
    }
 }

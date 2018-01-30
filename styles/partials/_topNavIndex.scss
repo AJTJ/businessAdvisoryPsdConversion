@@ -11,22 +11,40 @@
       font-size: 18px;
       color: white;
    }
+
 }
 
 .index {
    flex-grow: 3;
    display: flex;
    justify-content: space-between;
+
+   a {
+      border-bottom: transparent solid 1px;
+      transition: all 0.2s;
+
+      &:hover {
+         border-bottom: white solid 1px;
+      }
+   }
+
+
 }
 
 .shoppingSearch {
    display: flex;
    justify-content: space-around;
+   align-items: center;
    flex-grow: 1;
+   margin: 0 20px;
 }
 
 .shopping {
    position: relative;
+
+   &:hover .shoppingCircle {
+      background: black;
+   }
 }
 
 .shoppingCircle {
@@ -45,14 +63,33 @@
    }
 }
 
+.search {
+   border-bottom: transparent 1px solid;
+   padding: 5px;
+   transition: all 0.2s;
+
+   &:hover {
+      border-bottom: white 1px solid;
+   }
+}
+
 .indexSocialMedia {
    display: flex;
    flex-grow: 1;
 
+   svg {
+      color: white;
+      transition: all 0.2s;
+   }
+   
    a {
-      padding: 0 5px;
+      padding: 10px 10px;
       flex-grow: 1;
       display: flex;
       justify-content: space-around;
+
+      &:hover svg {
+         color: black;
+      }
    }
 }

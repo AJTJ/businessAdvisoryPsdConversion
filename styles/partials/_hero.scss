@@ -30,6 +30,12 @@
    text-align: center;
    padding: 18px 0;
    margin: 30px;
+   transition: all 0.2s;
+
+   &:hover {
+      background: black;
+      color: white;
+   }
 
    span {
       margin-left: 15px;
@@ -43,16 +49,21 @@
    display: inline-block;
    border-radius: 100px;
    position: absolute;
+   transition: all 0.2s;
+
+   &:hover {
+      background: black;
+   }
 }
 
 .angleAnchorRight {
    top: 50%;
-   right: 5px;
+   right: 15px;
 }
 
 .angleAnchorLeft {
    top: 50%;
-   left: 5px;
+   left: 15px;
 }
 
 .heroAngle {
