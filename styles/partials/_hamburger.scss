@@ -1,0 +1,45 @@
+.hamburgerDiv {
+   display: none;
+   text-align: right;
+   position: fixed;
+   background: rgb(47, 135, 253);
+   z-index: 10;
+   width: 100%;
+   height: 50px;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   padding: 0 20px;
+
+   p {
+      display: flex;
+      text-align: right;
+      flex-direction: row-reverse;
+      align-items: center;
+      height: 100%;
+
+      a {
+         height: 30px;
+         padding: 0 5px;
+      }
+   }
+   
+   svg {
+      color: white;
+   }
+
+}
+
+.overlay {
+   display: block;
+   position: fixed;
+   z-index: 10;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: white;
+   color: white;
+}
+

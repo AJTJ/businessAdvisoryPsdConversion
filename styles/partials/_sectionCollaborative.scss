@@ -4,6 +4,8 @@
 
    h2 {
       margin: 30px 0;
+      color: rgb(47, 135, 253);
+      text-align: center;
    }
 
    .arrowLink {
@@ -39,6 +41,10 @@
    padding: 25px;
    background-color: #f6f6f6;
    border-right: rgb(47, 135, 253) 1px solid;
+
+   h2 {
+      text-align: left;
+   }
 
    .arrowLink {
       width: 200px;

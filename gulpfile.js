@@ -37,16 +37,16 @@ return gulp.src('./styles/**/*.scss')
 .pipe(reload({ stream: true }));
 });
 
-gulp.task('scripts', function () {
-return gulp.src('./scripts/**/*.js')
-.pipe(plumber({
-  errorHandler: notify.onError("Error: <%= error.message %>")
-}))
-.pipe(concat('main.min.js'))
-.pipe(uglify())
-.pipe(gulp.dest('./scripts'))
-.pipe(reload({stream:true}));
-});
+// gulp.task('scripts', function () {
+// return gulp.src('./scripts/**/*.js')
+// .pipe(plumber({
+//   errorHandler: notify.onError("Error: <%= error.message %>")
+// }))
+// .pipe(concat('main.min.js'))
+// .pipe(uglify())
+// .pipe(gulp.dest('./scripts'))
+// .pipe(reload({stream:true}));
+// });
 
 gulp.task('assets', function () {
 return gulp.src('./assets/**/*')

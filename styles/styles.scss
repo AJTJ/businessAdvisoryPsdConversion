@@ -9,7 +9,7 @@
 @import "partials/topNavLogo";
 @import "partials/topNavIndex";
 
-@import "partials/hero";
+@import "partials/sectionHero";
 @import "partials/sectionCollaborative";
 @import "partials/sectionServices";
 @import "partials/sectionWhy";
@@ -21,7 +21,11 @@
 
 @import "partials/_footer";
 
+@import "partials/_hamburger";
+
 @import "partials/_mediaQueries";
+
+
 
 // * {
 //    border: red 1px solid;

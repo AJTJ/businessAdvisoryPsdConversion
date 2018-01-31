@@ -1,3 +1,20 @@
+@media (max-width: 1150px) {
+   .bizNumbersFlex {
+
+      div {
+
+         h5 {
+            font-size: 15px;
+         }
+         h3 {
+            font-size: 35px;
+         }
+      }
+
+   }
+}
+
+
 /* Portrait tablet and small desktops */
 @media (max-width: 950px) {
 
@@ -59,17 +76,543 @@
       h2 {
          text-align: center;
       }
+
+      p {
+         font-size: 14px;
+      }
+   }
+
+   // SERVICES SECTION
+
+   .ourServices {
+      p {
+         font-size: 14px;
+      }
+   }
+
+   .service {
+      width: 49%;
+   }
+
+   // WHY SECTION
+
+   .why {
+      p {
+         font-size: 14px;
+      }
+   }
+
+   .riskStrategyDiv {
+      p {
+         font-size: 14px;
+      }
+   }
+
+   // BIZNUMBERS
+
+   .bizNumbersFlex {
+      flex-wrap: wrap;
+
+      div {
+         width: 50%;
+         align-content: center;
+         padding: 20px;
+
+         span, h5, h3 {
+            text-align: center;
+         }
+         
+         
+      }
+   }
+   .bizNumbersFlex div:not(:last-child) {
+      border: none;
+   }
+
+   // LOGO SECTION
+
+   .logoFlex {
+      flex-wrap: wrap;
+      // justify-content: space-between;
+
+      div {
+         width: 50%;
+         display: flex;
+         justify-content: space-around;
+         margin: 20px 0;
+      }
+   }
+
+   // FOOTER
+
+   .footerContact {
+
+      h3 {
+         font-size: 12px;
+      }
+   }
+
+   .footerLogoSection,
+   .footerQuickFocus,
+   .footerNews {
+      h2 {
+         font-size: 25px;
+      }
+
+      h4 {
+         font-size: 14px;
+      }
+
+      p,
+      a {
+         font-size: 14px;
+      }
+   }
+
+   .emailInput {
+      width: 200px;
+      font-size: 13px;
+   }
+
+   .footerBottom {
+      p {
+         font-size: 14px;
+      }
+   }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   
+   // HEADER
+
+   .hamburgerDiv {
+		display: block;
+		font-size: 25px;
+	}
+
+   .contactNav,
+   .topNavLogo,
+   .indexNav {
+      display: none;
+      z-index: 11;
+   }
+
+   .contactNav {
+      p,
+      span,
+      a {
+         font-size: 12px;
+      }
+      
+      margin-top: 50px;
+   }
+
+   .topNavLogo {
+      h2 {
+         color: black;
+      }
+   }
+
+   .topNavLogoFlex {
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+
+   .indexNav {
+      height: 400px;
+      padding: 10px;
+
+      a {
+         font-size: 13px;
+      }
+
+      .index {
+         max-width: 100%;
+         padding: 5px 0;
+         flex-direction: column;
+         align-items: center;
+
+
+         li {
+            padding: 5px;
+         }
+      }
+
+      .shoppingSearch {
+         max-width: 100%;
+         margin: 0;
+         padding: 5px 0;
+      }
+
+      .indexSocialMedia {
+         max-width: 100%;
+         margin: 0;
+         padding: 5px 0;
+      }
+   }
+   
+   .show {
+      display: block;
+   }
+	
+   // HERO
+
+   .heroSection {
+      h1 {
+         font-size: 40px;
+         margin-left: 50px;
+      }
+
+      h5 {
+         margin-left: 50px;
+      }
+
+      .meetExpertsLink {
+         margin-left: 50px;
+      }
+   }
+
+   // COLLABORATIVE
+
+   .collaborative {
+
+      p {
+         font-size: 14px;
+      }
+
+      .arrowLink {
+         width: 150px;
+         font-size: 14px;
+      }
+   }
+
+   .collaborativeFlex {
+      flex-direction: column;
+   }
+
+   .collaborativePrincipalSection,
+   .collaborativeSmallSection {
+      max-width: 100%;
+   }
+
+   // SERVICES
+
+   .largeLetter {
+      left: 38%;
+   }
+
+   // WHY
+
+   .whyFlex {
+      flex-direction: column;
+
+      .whyText {
+         max-width: 100%;
+         margin-right: 0;
+      }
+
+      .whyImg {
+         max-width: 100%;
+         display: flex;
+         justify-content: space-around;
+      }
+   }
+
+   .riskStrategy {
+      flex-direction: column;
+
+      .riskStrategyDiv {
+         width: 100%;
+         text-align: center;
+         margin-top: 20px;
+
+         .riskStrategyImgTitle {
+            align-items: center;
+         }
+      }
+   }
+
+   // PROJECT SECTION
+
+   .project {
+
+      h3 {
+         font-size: 15px;
+      }
+      .arrowLink {
+         font-size: 14px;
+      }
+   }
+
+   // PROFILE SECTION
+
+   .profile {
+
+   }
+
+   .profileText {
+      h3 {
+         font-size: 15px;
+      }
+
+      .profileName {
+         font-size: 17px;
+      }
+   }
+
+   // NEWS SECTION
+
+   .news {
+      h3 {
+         font-size: 15px;
+      }
+      .arrowLink {
+         font-size: 14px;
+      }
+
+      .newsItem {
+         h4 {
+            font-size: 14px;
+            margin-bottom: 0;
+         }
+      }
+      p {
+         font-size: 14px;
+         margin-bottom: 0;
+      }
+      .arrowLink {
+         font-size: 14px;
+      }
+   }
+
+   // FOOTER SECTION
+
+   .footerFlex {
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+
+   .footerLogoSection {
+      .subscribeDescription {
+         text-align: center;
+         padding-bottom: none;
+      }
+   }
+
+   .footerLogoSection {
+      max-width: 100%;
+      padding-bottom: 50px;
+   }
+
+   .emailSubscribe {
+      text-align: center;
+      position: relative;
+      left: 20px;
+   }
+
+   .footerQuickFocus {
+      min-width: 48%;
+      text-align: center;
+   }
+
+   .footerNews {
+      min-width: 48%;
+      padding: 0 35px;
+      text-align: center;
+   }
+
+   .quoteDiv {
+      display: flex;
+      justify-content: space-around;
+   }
+
+
+
+}
+
+
+@media (max-width: 650px) {
+
+   // HERO SECTION
+
+   // PROJECT SECTION
+
+   .projectImagesFlex {
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      img {
+         width: 40%;
+         margin: 20px 0;
+      }
+   }
+
+   // PROFILE SECTION
+   .profileFlex {
+      flex-direction: column-reverse;
+
+      .profileImgDiv {
+         display: flex;
+         justify-content: space-around;
+
+         img {
+            width: 75%;
+            margin: 20px 0;
+         }
+      }
+   }
+
+   // NEWS SECTION
+
+   .newsImagesFlex {
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      .newsItem {
+         width: 40%;
+         margin: 20px 0;
+
+         img {
+            width: 100%;
+            margin: 0;
+         }
+      }
+   }
+
+   // FOOTER
+   
+   .footerContact {
+      flex-direction: column;
+      margin: 0 20%;
+      padding: 10px;
+
+      div {
+         margin: 1px 0;
+      }
+   }
+
+   .footerBar {
+      margin: 0 21%;
+   }
+
+   .footerBottomFlex {
+      flex-direction: column;
+      justify-content: space-around;
+
+      p {
+         text-align: center;
+      }
+
+      .footerSocialMedia {
+         max-width: 100%;
+         margin: 0;
+      }
+   }
+
+}
+
+@media (max-width: 550px) {
+   
+   // HERO SECTION
+
+   .heroSection {
+      h1 {
+         font-size: 30px;
+      }
+   }
+
+   // COLLABORATIVE SECTION 
+
+   .collaborative {
+      h1 {
+         font-size: 30px;
+      }
+   }
+
+   // SERVICES SECTION
+
+   .largeLetter {
+      left: 33%;
+   }
+
+   .service {
+      width: 100%;
+   }
+
+   // NEWS SECTION
+
+   .newsImagesFlex {
+      flex-wrap: wrap;
+
+      .newsItem {
+         width: 75%;
+         padding-bottom: 30px;
+      }
    }
 }
 
 
 
 
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
-}
-
 /* Landscape phones and down */
 @media (max-width: 480px) {
+
+   // BIZ NUMBERS 
+
+   .bizNumbersFlex {
+
+      div {
+         width: 100%;
+         flex-direction: row-reverse;
+         align-items: center;
+
+         span {
+            margin: 0 5px;
+         }
+
+         h3 {
+            padding: 0;
+            margin: 0 5px;
+         }
+         h5 {
+            padding: 0;
+            margin: 0 5px;
+         }
+      }
+
+   }
+
+   // PROJECT SECTION 
+
+   .projectText {
+      flex-direction: column;
+
+      h3 {
+         max-width: 100%;
+      }
+
+      .arrowLink {
+         width: 100%;
+      }
+   }
+
+   .projectImagesFlex {
+      flex-wrap: wrap;
+
+      img {
+         width: 75%;
+      }
+   }
+
+   // FOOTER SECTION
+
+   .footerQuickFocus, .footerNews {
+      max-width: 100%;
+   }
+
+   .footerQuickFocus {
+      padding-bottom: 50px;
+   }
 }

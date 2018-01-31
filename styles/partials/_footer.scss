@@ -3,6 +3,10 @@ footer {
    position: relative;
 }
 
+.footerContactBackground {
+   background: #2f87fd;
+}
+
 .footerContact {
    display: flex;
    justify-content: space-between;
@@ -11,10 +15,8 @@ footer {
    color: white;
    height: 80px;
    padding: 15px;
-   position: absolute;
-   top: -40px;
-   width: 80%;
-   margin: 0 10%;
+   position: relative;
+   top: 40px;
 
    h3 {
       font-size: 15px;
@@ -39,8 +41,8 @@ footer {
 
 .footerBar {
    background: rgb(66, 65, 65);
-   margin: 0 10%;
-   height: 80px;
+   margin: 0 15px;
+   height: 60px;
 }
 
 .mainFooter {
@@ -69,7 +71,7 @@ footer {
 }
 
 .footerLogoSection {
-   width: 30%;
+   max-width: 40%;
 
    .companyLogo {
       padding-bottom: 30px;
@@ -83,7 +85,7 @@ footer {
       padding-bottom: 20px 0;
    }
 
-   .blueFooterLogo {
+   .subscribeDescription {
       color: rgb(47, 135, 253);
       padding: 40px 0;
    }
@@ -110,7 +112,8 @@ footer {
    height: 45px;
    width: 80px;
    position: relative;
-   left: -20px;
+   left: -30px;
+   top: 1px;
    background: rgb(47, 135, 253);
    border-radius: 30px;
    border: none;
@@ -122,7 +125,7 @@ footer {
 }
 
 .footerQuickFocus {
-   width: 20%;
+   max-width: 20%;
 
    h3 {
       font-size: 18px;
@@ -144,7 +147,7 @@ footer {
 }
 
 .footerNews {
-   width: 20%;
+   max-width: 20%;
 
    h3 {
       padding-bottom: 40px;
@@ -214,4 +217,5 @@ footer {
 
 .footerSocialMedia {
    max-width: 200px;
+   margin-right: 30px;
 }

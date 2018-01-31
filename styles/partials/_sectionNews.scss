@@ -12,9 +12,7 @@
    flex-direction: column;
    width: 32%;
 
-   img {
-      width: 100%;
-   }
+
 
    h4 {
       margin: 20px 0;
@@ -30,6 +28,31 @@
    color: rgb(47, 135, 253);
 }
 
-.arrowLink {
-   
+.newsItemImgDiv {
+   position: relative;
+   min-height: 50px;
+   display: inline-block;
+
+   img {
+      width: 100%;
+      display: block;
+   }
 }
+
+.imgOverlay {
+   visibility: hidden;
+   background: rgba(47, 135, 253, 0.9);
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.newsItemImgDiv:hover .imgOverlay {
+   visibility: visible;
+}
+

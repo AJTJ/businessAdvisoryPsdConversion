@@ -53,6 +53,7 @@
 
 .service {
    width: 32%;
+   padding: 20px;
    margin-top: 20px;
    background: white;
    display: flex;
@@ -63,6 +64,7 @@
 
    .serviceImgDiv {
       margin: 25px 0;
+      height: 80px;
    }
 
    h5 {

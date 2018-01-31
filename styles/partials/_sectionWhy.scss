@@ -6,6 +6,7 @@
 
 .whyText {
    max-width: 60%;
+   padding-right: 10px;
    
    h1 {
       margin: 15px 0;
@@ -13,6 +14,7 @@
 
    h4 {
       margin: 15px 0;
+      color: rgb(47, 135, 253);
    }
 
    p {
@@ -20,9 +22,14 @@
    }
 }
 
-.whyFlex img {
+.whyImg {
    max-width: 40%;
+
+   img {
+      width: 100%;
+   }
 }
+
 
 .riskStrategy {
    display: flex;
@@ -46,7 +53,7 @@
 
 .riskStrategyImgTitle {
    display: flex;
-   align-items: center;
+   justify-content: center;
 }
 
 .riskImgDiv {
