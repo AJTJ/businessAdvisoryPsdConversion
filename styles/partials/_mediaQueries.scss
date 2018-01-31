@@ -22,6 +22,7 @@
 
    .contactNavFlex {
       flex-direction: column;
+      font-size: 12px;
    }
 
    .phoneEmail {
@@ -182,21 +183,48 @@
 
 }
 
+
+
+
+
+
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
    
    // HEADER
 
+   body {
+      padding-top: 50px;
+   }
    .hamburgerDiv {
 		display: block;
 		font-size: 25px;
 	}
 
    .contactNav,
-   .topNavLogo,
+   // .topNavLogo,
    .indexNav {
       display: none;
       z-index: 11;
+   }
+
+   .topNavLogo {
+      justify-content: space-around;
+      margin: 25px;
+
+      h2 {
+         color: black;
+      }
+
+      .companyLogo {
+         min-width: 100%;
+         justify-content: center;
+      }
+
+      .globe, .watch {
+         display: none;
+      }
    }
 
    .contactNav {
@@ -209,27 +237,33 @@
       margin-top: 50px;
    }
 
-   .topNavLogo {
-      h2 {
-         color: black;
-      }
-   }
-
    .topNavLogoFlex {
       flex-wrap: wrap;
       justify-content: space-around;
    }
 
+   .consultationLink {
+      padding: 10px 5px;
+   }
+
    .indexNav {
-      height: 400px;
+      height: 250px;
       padding: 10px;
+      justify-content: space-around;
 
       a {
          font-size: 13px;
       }
 
+      .shoppingCircle {
+         
+         span {
+            font-size: 16px;
+         }
+      }
+
       .index {
-         max-width: 100%;
+         max-width: 40%;
          padding: 5px 0;
          flex-direction: column;
          align-items: center;
@@ -238,6 +272,11 @@
          li {
             padding: 5px;
          }
+      }
+
+      .shoppingSocialsFlex {
+         flex-direction: column;
+         max-width: 40%;
       }
 
       .shoppingSearch {
@@ -254,7 +293,7 @@
    }
    
    .show {
-      display: block;
+      display: flex;
    }
 	
    // HERO
@@ -348,10 +387,6 @@
 
    // PROFILE SECTION
 
-   .profile {
-
-   }
-
    .profileText {
       h3 {
          font-size: 15px;
@@ -435,8 +470,6 @@
 
 @media (max-width: 650px) {
 
-   // HERO SECTION
-
    // PROJECT SECTION
 
    .projectImagesFlex {
@@ -444,7 +477,7 @@
       flex-wrap: wrap;
 
       img {
-         width: 40%;
+         width: 100%;
          margin: 20px 0;
       }
    }
@@ -515,6 +548,18 @@
 
 @media (max-width: 550px) {
    
+   // HEADER SECTION
+
+   .topNavLogo {
+      display: none;
+   }
+
+   .show {
+      display: flex;
+   }
+
+
+
    // HERO SECTION
 
    .heroSection {
@@ -559,6 +604,9 @@
 /* Landscape phones and down */
 @media (max-width: 480px) {
 
+   // HEADER
+
+
    // BIZ NUMBERS 
 
    .bizNumbersFlex {
@@ -602,7 +650,7 @@
       flex-wrap: wrap;
 
       img {
-         width: 75%;
+         width: 100%;
       }
    }
 

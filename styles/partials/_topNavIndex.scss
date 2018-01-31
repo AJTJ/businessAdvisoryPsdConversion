@@ -27,8 +27,13 @@
          border-bottom: white solid 1px;
       }
    }
+}
 
-
+.shoppingSocialsFlex {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-grow: 1;
 }
 
 .shoppingSearch {
@@ -41,6 +46,7 @@
 
 .shopping {
    position: relative;
+   margin: 0 10px;
 
    &:hover .shoppingCircle {
       background: black;
@@ -65,7 +71,8 @@
 
 .search {
    border-bottom: transparent 1px solid;
-   padding: 5px;
+   margin: 0 10px;
+   padding: 5px 10px;
    transition: all 0.2s;
 
    &:hover {

@@ -7,10 +7,13 @@
       color: rgb(234, 232, 232);
       padding-bottom: 20px;
    }
-
-   img {
-      width: 100%;
+   .profileImgDiv {
+      min-width: 40%;
+      img {
+         max-width: 100%;
+      }
    }
+
 }
 
 .profileFlex {

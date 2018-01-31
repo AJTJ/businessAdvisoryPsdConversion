@@ -1,14 +1,18 @@
-@import "partials/variables";
+
 @import "partials/normalize";
-@import "partials/colors";
+@import "partials/variables";
 @import "partials/typography";
 @import "partials/global";
 
 // SECTIONS
+
+// NAV
 @import "partials/topNavContact";
 @import "partials/topNavLogo";
 @import "partials/topNavIndex";
 
+
+// BODY
 @import "partials/sectionHero";
 @import "partials/sectionCollaborative";
 @import "partials/sectionServices";
@@ -19,14 +23,11 @@
 @import "partials/_sectionNews";
 @import "partials/_sectionLogo";
 
+// FOOTER
 @import "partials/_footer";
+
+
 
 @import "partials/_hamburger";
 
 @import "partials/_mediaQueries";
-
-
-
-// * {
-//    border: red 1px solid;
-// }

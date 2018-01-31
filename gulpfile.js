@@ -57,8 +57,10 @@ return gulp.src('./assets/**/*')
 // configure which files to watch and what tasks to use on file changes
 gulp.task('watch', function() {
 gulp.watch('styles/**/*.scss', ['styles']);
-gulp.watch('./scripts/**/*.js', ['scripts']);
+// gulp.watch('./scripts/**/*.js', ['scripts']);
 gulp.watch('./**/*.html', reload);
 });
 
-gulp.task('default', ['styles', 'scripts', 'assets', 'bs', 'watch']);
+gulp.task('default', ['styles', 'assets', 'bs', 'watch']);
+
+// 'scripts',
